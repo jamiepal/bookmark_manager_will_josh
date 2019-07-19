@@ -1,5 +1,5 @@
 class Tag
-  def self.create(content)
+  def self.create(content:)
     result = DatabaseConnection.query(
       "INSERT INTO tags (content)
       VALUES ('#{content}')

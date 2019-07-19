@@ -6,7 +6,7 @@ feature 'Adding and viewing tags' do
       visit'/'
       click_button 'Add Tag'
 
-      expect(current_path).to eq "/bookmarks/#{bookmark.id}/tags/new"
+      expect(current_path).to eq "/bookmarks/#{bookmark.id}/tag/new"
 
       fill_in 'tag', with: 'This is a tag'
       click_button 'Submit'
