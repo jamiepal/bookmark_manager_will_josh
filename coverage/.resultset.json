@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/bookmark_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/bookmark_spec.rb": [
         1,
         1,
         null,
@@ -91,7 +91,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/database_helpers.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/database_helpers.rb": [
         1,
         1,
         null,
@@ -99,7 +99,42 @@
         4,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/comment_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/bookmark_tab_jointable_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/lib/bookmarktagjointable.rb": [
+        1,
+        1,
+        4,
+        4,
+        null,
+        1,
+        null,
+        1,
+        4,
+        4,
+        4,
+        null,
+        null
+      ],
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/comment_spec.rb": [
         1,
         1,
         1,
@@ -137,7 +172,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/database_connection_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/database_connection_spec.rb": [
         1,
         1,
         null,
@@ -155,27 +190,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/adding_and_viewing_comments_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/adding_and_viewing_tags_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/adding_and_viewing_comments_spec.rb": [
         1,
         1,
         1,
@@ -195,7 +210,27 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/creating_bookmarks_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/adding_and_viewing_tags_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/creating_bookmarks_spec.rb": [
         null,
         null,
         null,
@@ -219,7 +254,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/deleting_a_bookmark_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/deleting_a_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -233,7 +268,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/updating_a_bookmark_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/updating_a_bookmark_spec.rb": [
         null,
         null,
         null,
@@ -257,7 +292,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/user_stories_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/user_stories_spec.rb": [
         1,
         1,
         1,
@@ -269,7 +304,7 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/features/viewing_bookmarks_spec.rb": [
         null,
         1,
         null,
@@ -290,44 +325,48 @@
         null,
         null
       ],
-      "/Users/joshhemser/Makers/Projects/Collaborator/bookmark_manager_will_josh/spec/tag_spec.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
+      "/Users/jamiepalmer/Projects/bookmarkmanagerfriday2/bookmark_manager_will_josh/spec/tag_spec.rb": [
         1,
         1,
         1,
         1,
         null,
-        1,
         null,
         1,
         1,
         1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
+        1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
+        1,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1563547368
+    "timestamp": 1563557143
   }
 }

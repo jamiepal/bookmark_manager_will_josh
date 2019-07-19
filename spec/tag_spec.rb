@@ -1,6 +1,8 @@
 require 'tag'
 require 'bookmark'
 require 'database_helpers'
+require 'bookmarktagjointable'
+
 
 describe Comment do
   describe '.create' do
@@ -18,18 +20,20 @@ describe Comment do
 
   describe '.where' do
     it 'gets the relevant tags from the database' do
-      bookmark = Bookmark.create(url: "http://www.makersacademy.com", title: "Makers Academy")
-      Tag.create(content: 'This is a test tag')
-      Tag.create(content: 'This is a test tag two')
+      bookmark1 = Bookmark.create(url: "http://www.makersacademy.com", title: "Makers Academy")
+      tag1 = Tag.create(content: 'This is a test tag')
+      bookmarktagjoin1 = BookMarkTagJoinTable.link(bookmark1.id, tag1.id)
+      bookmark2 = Bookmark.create(url: "http://www.google.com", title: "google")
+      tag2 = Tag.create(content: 'This is a test tag two')
+      bookmarktagjoin2 = BookMarkTagJoinTable.link(bookmark2.id, tag2.id)
+      tag3 = Tag.create(content: 'This is a test tag three')
+      bookmarktagjoin2 = BookMarkTagJoinTable.link(bookmark1.id, tag3.id)
 
-      tags = Tag.where(bookmark_id: bookmark.id)
-      tag = tags.first
-      persisted_data = persisted_data(table: 'tags', id: content.id)
+      tags = Tag.where(bookmark_id: bookmark1.id)
 
       expect(tags.length).to eq 2
-      expect(tags.id).to eq persisted_data.first['id']
-      expect(tags.content).to eq 'This is a test comment'
-      expect(tags.bookmark_id).to eq bookmark.id
+      expect(tags[0].content).to eq 'This is a test tag'
+      expect(tags[1].content).to eq 'This is a test tag three'
     end
   end
 end
